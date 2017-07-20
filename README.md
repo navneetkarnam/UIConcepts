@@ -1,13 +1,7 @@
 # UIConcepts
-UI samples designed by me
-<<<<<<< HEAD
 	* Menu Concept
 	* Login Concept
 	* Menu-Concept-2
-=======
-* Menu Concept
-* Login Concept
->>>>>>> origin/master
 * * *
 ## 1. Menu concept
 - __Click on this [link](https://codepen.io/navneetkarnam/pen/dWPjRb) to see a demo__
