@@ -1,0 +1,122 @@
+body {
+  background: #ada996; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ada996,
+    #f2f2f2,
+    #dbdbdb,
+    #eaeaea
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ada996,
+    #f2f2f2,
+    #dbdbdb,
+    #eaeaea
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container {
+  /*   border: 1px solid grey; */
+  width: 360px;
+  margin: 0 auto;
+  box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.3px);
+  border-radius: 10px;
+}
+
+h1 {
+  /*   border: 1px dashed red; */
+  margin: inherit;
+  padding: 10px 10px;
+  font-weight: normal;
+  font-family: 'Shrikhand', cursive;
+  border-radius: inherit;
+  background: #757F9A; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #D7DDE8,
+    #757F9A
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #D7DDE8,
+    #757F9A
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+li:hover {
+  height: 30px;
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: inherit;
+}
+
+ul:nth-child(2n) {
+  background-color: #f7f7f7;
+}
+
+.menu-wrapper {
+  cursor: pointer;
+  padding: 11px 0;
+  display: inline-block;
+  width: 24px;
+  margin-left: 210px;
+}
+
+.menu-wrapper span, .menu-wrapper span:before, .menu-wrapper span:after {
+  content: '';
+  height: 2px;
+  background-color: #000000;
+  width: 100%;
+  display: block;
+
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+.menu-wrapper span {
+  position: relative;
+}
+
+.menu-wrapper span:before {
+  position: absolute;
+  top: -6px;
+}
+
+.menu-wrapper span:after {
+  position: absolute;
+  top: 6px;
+}
+
+/* Arrow effect */
+.menu-wrapper.active .menu-arrow {
+  transition-duration: 0.5s;
+  transform: rotate(180deg);
+}
+.menu-wrapper.active .menu-arrow:before {
+  top: -3px;
+  transform: rotate(30deg);
+  width: 12px;
+  right: 0;
+}
+.menu-wrapper.active .menu-arrow:after {
+  top: 3px;
+  transform: rotate(-30deg);
+  width: 12px;
+  right: 0;
+}
