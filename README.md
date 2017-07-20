@@ -1,8 +1,12 @@
 # UIConcepts
 UI samples designed by me
+<<<<<<< HEAD
 	* Menu Concept
 	* Login Concept
-	* Menu-Concept-2
+=======
+* Menu Concept
+* Login Concept
+>>>>>>> origin/master
 * * *
 ## 1. Menu concept
 - __Click on this [link](https://codepen.io/navneetkarnam/pen/dWPjRb) to see a demo__
@@ -24,7 +28,4 @@ UI samples designed by me
 ![pic3](Menu/images/Login.png)
 
 * * *
-## 3. Menu-Concept-2
-<p data-height="265" data-theme-id="dark" data-slug-hash="yXdxoN" data-default-tab="css,result" data-user="navneetkarnam" data-embed-version="2" data-pen-title="Menu Concept 2" class="codepen">See the Pen <a href="https://codepen.io/navneetkarnam/pen/yXdxoN/">Menu Concept 2</a> by Navneet Karnam (<a href="https://codepen.io/navneetkarnam">@navneetkarnam</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-* * *
+
