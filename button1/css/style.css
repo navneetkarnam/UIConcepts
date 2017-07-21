@@ -1,0 +1,62 @@
+.container {
+  /*   border: 1px dashed grey; */
+  width: 360px;
+  margin: 50px auto;
+}
+
+.button1 {
+  border: none;
+  padding: 8%;
+  margin-left: 15%;
+  border-radius: 20px;
+  width: 80%;
+/*   font-size: 25px; */
+  font-weight: bold;
+  background: #597bb2;
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.3);
+/*   transition: .5s; */
+}
+
+.button1:hover {
+  cursor: pointer;
+}
+
+.button2 {
+  border: none;
+  padding: 5%;
+  margin-left: 50%;
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  font-weight: bold;
+  transition: 1s;
+  transform: rotate(180deg);
+  background: #56ab2f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a8e063,
+    #56ab2f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a8e063,
+    #56ab2f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: -2px 0px 4px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 
+}
+
+
+.button2:hover{
+  cursor: pointer;
+}
+
+i{
+  transform: rotate(-180deg);
+  transition: .5s;
+  color: white;
+}
+
+span{
+  font-size:40px;
+}
